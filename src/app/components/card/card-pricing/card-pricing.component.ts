@@ -10,12 +10,12 @@ export class CardPricingComponent  implements OnInit{
   @Input()
   gameType:String=""
   @Input()
-  gamePrice:String="R"
+  gamePrice:String=""
 
 
   constructor( ){ }
   ngOnInit(): void {
-    throw new Error('Method not implemented.');
+
   }
 
 }

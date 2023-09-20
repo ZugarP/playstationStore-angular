@@ -9,16 +9,17 @@
   display: flex;
   overflow: hidden;
   margin-top: 10px;
-  transition: transform .8s;
+
 
   }
 
 .card__img{
   min-width: 100%;
   min-height: 100%;
+  transition: transform .8s;
 
 
 }
-.card__container:hover{
+.card__img:hover{
   transform: scale(1.05);
 }

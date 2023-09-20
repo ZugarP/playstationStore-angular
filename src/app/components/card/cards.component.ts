@@ -12,14 +12,14 @@ export class CardsComponent implements OnInit{
   @Input()
   gameLabel:String=""
   @Input()
-  gameType:String="Fisico PS5"
+  gameType:String=""
   @Input()
-  gamePrice:String="R$ 199,99"
+  gamePrice:String=""
 
   constructor(){ }
 
   ngOnInit(): void {
-    throw new Error('Method not implemented.');
+
   }
 
 }
